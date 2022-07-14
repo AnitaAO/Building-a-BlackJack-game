@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-image: url("img/bg-green.jpg");
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 100px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+    padding-top: 16px;
+    font-style: italic;
+}
+
+#card-el, #sum-el{
+    padding-top: 8px;
+}
+
+/* 3. make sure that the two buttons have same space between
+each other when they are rendered out vertically */
+button{
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#start-btn{
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
